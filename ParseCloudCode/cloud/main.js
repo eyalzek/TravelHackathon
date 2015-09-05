@@ -36,6 +36,12 @@ Parse.Cloud.define('onBeaconReached', function(request, response) {
     });
 });
 
+Parse.Cloud.define('clearUserJourney', function(request, response) {
+    clearUserJourney().then(function(results) {
+        response.success('UserJourney cleared');
+    });
+});
+
 // server-side code:
 function getGoals(beaconId, key) {
     var Goal = Parse.Object.extend('Goal'),
@@ -118,5 +124,21 @@ function calculatePoints(goals) {
             currentGoal.points = parseInt(best / results * max);
         }
         return Parse.Promise.as(currentGoal);
+    });
+}
+
+function clearUserJourney() {
+    var UserJourney = Parse.Object.extend('UserJourney'),
+        q           = new Parse.Query(UserJourney),
+        _           = require('underscore');
+
+    return q.find().then(function(results) {
+        var promise = Parse.Promise.as();
+        _.each(results, function(result) {
+            promise = promise.then(function() {
+                return result.destroy();
+            });
+        });
+        return promise;
     });
 }
