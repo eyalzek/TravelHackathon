@@ -1,8 +1,6 @@
 // Cloud Code methods:
 Parse.Cloud.define('getBeaconGoals', function(request, response) {
     verifyBeacon(request.params.beaconId).then(function(results) {
-        return updateUserJourney(request);
-    }).then(function(results) {
         return getGoals(request.params.beaconId, 'start');
     }).then(function(results) {
         response.success(results);
@@ -14,6 +12,8 @@ Parse.Cloud.define('getBeaconGoals', function(request, response) {
 Parse.Cloud.define('onBeaconReached', function(request, response) {
     var values;
     verifyBeacon(request.params.beaconId).then(function(results) {
+        return updateUserJourney(request);
+    }).then(function(results) {
         return getGoals(request.params.beaconId, 'end');
     }).then(function(results) {
         return calculatePoints(results);
