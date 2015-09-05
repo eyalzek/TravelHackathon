@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/sanca/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Users/sanca/dev/hackathon/Factory #2/BitplacesAndroidHelloWorldApp/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-4da918167d09a9bc55c7c27e7528bb211bb03f50.jar" />
+    </item>
+    <item
+        jar="/Users/sanca/dev/hackathon/Factory #2/BitplacesAndroidHelloWorldApp/app/libs/bitplaces-android-sdk.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="33f6dbd2e41313e202cccd51c0bbada30ce34e57">
+        <dex dex="/Users/sanca/dev/hackathon/Factory #2/BitplacesAndroidHelloWorldApp/app/build/intermediates/pre-dexed/debug/bitplaces-android-sdk-0f3d7ed1a25b9e9735103c86ff29330f9d3db3af.jar" />
+    </item>
+    <item
+        jar="/Users/sanca/dev/hackathon/Factory #2/BitplacesAndroidHelloWorldApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/sanca/dev/hackathon/Factory #2/BitplacesAndroidHelloWorldApp/app/build/intermediates/pre-dexed/debug/classes-a9c922c7848ec42d98f243062c773f378ca0fe5f.jar" />
+    </item>
+    <item
+        jar="/Users/sanca/dev/hackathon/Factory #2/BitplacesAndroidHelloWorldApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="c0c912d58c9468b1f9d9769c8975afdf2c85d681">
+        <dex dex="/Users/sanca/dev/hackathon/Factory #2/BitplacesAndroidHelloWorldApp/app/build/intermediates/pre-dexed/debug/classes-00b52ace34cd6fa6a78e68850022fa49fadab320.jar" />
+    </item>
+    <item
+        jar="/Users/sanca/dev/hackathon/Factory #2/BitplacesAndroidHelloWorldApp/app/build/intermediates/exploded-aar/uk.co.chrisjenx/calligraphy/2.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="e653e15e62e8a59ddd76cc7f827bf8bce38ae7bb">
+        <dex dex="/Users/sanca/dev/hackathon/Factory #2/BitplacesAndroidHelloWorldApp/app/build/intermediates/pre-dexed/debug/classes-02170e4428e09628b68a0e5294686c4888f4b595.jar" />
+    </item>
+    <item
+        jar="/Users/sanca/dev/hackathon/Factory #2/BitplacesAndroidHelloWorldApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="/Users/sanca/dev/hackathon/Factory #2/BitplacesAndroidHelloWorldApp/app/build/intermediates/pre-dexed/debug/classes-a0a3b674ec936b303fc020fa32fd8db0124a78f1.jar" />
+    </item>
+    <item
+        jar="/Users/sanca/dev/hackathon/Factory #2/BitplacesAndroidHelloWorldApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="c756d14e99d39471e99013a1e8fd2f3813ed42bf">
+        <dex dex="/Users/sanca/dev/hackathon/Factory #2/BitplacesAndroidHelloWorldApp/app/build/intermediates/pre-dexed/debug/classes-0d71ef37231f6e31c40ef3e1db237cc7dc607f18.jar" />
+    </item>
+    <item
+        jar="/Users/sanca/dev/hackathon/Factory #2/BitplacesAndroidHelloWorldApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="1ff30fa49c07a08c3035d7218a3efebf5680d522">
+        <dex dex="/Users/sanca/dev/hackathon/Factory #2/BitplacesAndroidHelloWorldApp/app/build/intermediates/pre-dexed/debug/classes-c08465713c0dbffc6db4dc29e8d59161c3076082.jar" />
+    </item>
+    <item
+        jar="/Users/sanca/dev/hackathon/Factory #2/BitplacesAndroidHelloWorldApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="0124ce31248c0e8acfa2b28283c6d1a4d76e73d2">
+        <dex dex="/Users/sanca/dev/hackathon/Factory #2/BitplacesAndroidHelloWorldApp/app/build/intermediates/pre-dexed/debug/classes-de59c592737f6d277e53d5b8d28e04c6eef5f8dd.jar" />
+    </item>
+    <item
+        jar="/Users/sanca/dev/hackathon/Factory #2/BitplacesAndroidHelloWorldApp/app/libs/slf4j-api-1.7.1.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="1a508b0ecd360507a39a4dbaedd1aa4750741f6d">
+        <dex dex="/Users/sanca/dev/hackathon/Factory #2/BitplacesAndroidHelloWorldApp/app/build/intermediates/pre-dexed/debug/slf4j-api-1.7.1-a8b018e302a6d1ba2a86019f0c216a9cb2e8fd52.jar" />
+    </item>
+    <item
+        jar="/Users/sanca/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.2.1/44780c2cf98f6a3cf4e77f1234d644758b329201/bolts-android-1.2.1.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="44780c2cf98f6a3cf4e77f1234d644758b329201">
+        <dex dex="/Users/sanca/dev/hackathon/Factory #2/BitplacesAndroidHelloWorldApp/app/build/intermediates/pre-dexed/debug/bolts-android-1.2.1-2d8b43d5ce902d62aa33a693716ce473044e3b6a.jar" />
+    </item>
+    <item
+        jar="/Users/sanca/dev/hackathon/Factory #2/BitplacesAndroidHelloWorldApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="4a135d56554069e5d0ff80e3220e887e57146ee5">
+        <dex dex="/Users/sanca/dev/hackathon/Factory #2/BitplacesAndroidHelloWorldApp/app/build/intermediates/pre-dexed/debug/classes-92cd2ca6877695aee44fc99e5dbcd8321913a02d.jar" />
+    </item>
+    <item
+        jar="/Users/sanca/dev/hackathon/Factory #2/BitplacesAndroidHelloWorldApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="e23ea11124bb700eeddd4ab7aa848c615f493850">
+        <dex dex="/Users/sanca/dev/hackathon/Factory #2/BitplacesAndroidHelloWorldApp/app/build/intermediates/pre-dexed/debug/classes-e586bd4b7207da42476502bd7af23ca9aefd0288.jar" />
+    </item>
+    <item
+        jar="/Users/sanca/dev/hackathon/Factory #2/BitplacesAndroidHelloWorldApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/sanca/dev/hackathon/Factory #2/BitplacesAndroidHelloWorldApp/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-b143c8f7f0d2731be6824855107f1b9f70859af5.jar" />
+    </item>
+    <item
+        jar="/Users/sanca/.gradle/caches/modules-2/files-2.1/com.parse/parse-android/1.10.1/a87cb993a12e574a216213d0b8b2b78f6da35d37/parse-android-1.10.1.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="a87cb993a12e574a216213d0b8b2b78f6da35d37">
+        <dex dex="/Users/sanca/dev/hackathon/Factory #2/BitplacesAndroidHelloWorldApp/app/build/intermediates/pre-dexed/debug/parse-android-1.10.1-5006258894c8351a8b0804a5650202398368fb05.jar" />
+    </item>
+    <item
+        jar="/Users/sanca/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/7.0.1/d5d13ea991eab0252e3710e5df3d6a9d4b21d461/butterknife-7.0.1.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="/Users/sanca/dev/hackathon/Factory #2/BitplacesAndroidHelloWorldApp/app/build/intermediates/pre-dexed/debug/butterknife-7.0.1-44f15e300705062b749c1a045a704a7ed28c6fc9.jar" />
+    </item>
+    <item
+        jar="/Users/sanca/dev/hackathon/Factory #2/BitplacesAndroidHelloWorldApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="cb6fab7a71fa9ec1f483d44c5fca65ab469d8aca">
+        <dex dex="/Users/sanca/dev/hackathon/Factory #2/BitplacesAndroidHelloWorldApp/app/build/intermediates/pre-dexed/debug/classes-cf8b0134a5bacfa016fc253eb25ba05f81f28575.jar" />
+    </item>
+
+</items>

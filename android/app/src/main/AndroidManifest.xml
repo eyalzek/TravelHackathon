@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.chillhansa.happy.airport.journey"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <uses-permission android:name="android.permission.INTERNET"/>
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+  <uses-permission android:name="android.permission.BLUETOOTH"/>
+  <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+  <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+  <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION"/>
+
+  <permission
+      android:name="com.bitplaces.android.helloworld.permission.C2D_MESSAGE"
+      android:protectionLevel="signature"/>
+
+  <uses-permission android:name="com.bitplaces.android.helloworld.permission.C2D_MESSAGE"/>
+  <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+  <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+  <uses-permission android:name="android.permission.WAKE_LOCK"/>
+
+  <application
+      android:name="com.chillhansa.happy.airport.journey.HappyAirportApplication"
+      android:allowBackup="true"
+      android:icon="@drawable/launcher_icon"
+      android:label="@string/app_name"
+      android:theme="@style/AppTheme">
+    <activity
+        android:name="com.chillhansa.happy.airport.journey.MainActivity"
+        android:label="@string/app_name">
+    </activity>
+
+    <service android:name="com.bitplaces.sdk.android.BitplacesService"/>
+    <service android:name="com.bitplaces.sdk.android.BitplacesGCMIntentService"/>
+    <service
+        android:name="com.radiusnetworks.ibeacon.service.IBeaconService"
+        android:enabled="true"
+        android:exported="false"
+        android:isolatedProcess="false"
+        android:label="iBeacon">
+    </service>
+    <service
+        android:name="com.radiusnetworks.ibeacon.IBeaconIntentProcessor"
+        android:enabled="true">
+      <meta-data
+          android:name="background"
+          android:value="true"/>
+
+      <intent-filter android:priority="1">
+        <action android:name="com.bitplaces.android.helloworld.DID_RANGING"/>
+        <action android:name="com.bitplaces.android.helloworld.DID_MONITORING"/>
+      </intent-filter>
+    </service>
+
+    <receiver android:name="com.bitplaces.sdk.android.BootCompletedReceiver">
+      <intent-filter>
+        <action android:name="android.intent.action.BOOT_COMPLETED"/>
+      </intent-filter>
+    </receiver>
+    <receiver
+        android:name="com.bitplaces.sdk.android.BitplacesGCMBroadcastReceiver"
+        android:permission="com.google.android.c2dm.permission.SEND">
+      <intent-filter>
+        <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+
+        <category android:name="com.bitplaces.android.helloworld"/>
+      </intent-filter>
+    </receiver>
+
+    <activity
+        android:name="com.chillhansa.happy.airport.journey.SplashScreen"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+
+        <category android:name="android.intent.category.LAUNCHER"/>
+      </intent-filter>
+    </activity>
+
+    <activity
+        android:name="com.chillhansa.happy.airport.journey.FlightInfoActivity"
+        android:screenOrientation="portrait"
+        android:theme="@style/Theme.AppCompat.NoActionBar"/>
+  </application>
+
+</manifest>

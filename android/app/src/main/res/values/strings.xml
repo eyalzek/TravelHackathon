@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Happy airport journey</string>
+    <string name="sdk_build_number">SDK Build Number:%1$d</string>
+    <string name="sdk_initialization_status">SDK Initialization Status:</string>
+    <string name="sdk_initializing">Initializing...</string>
+    <string name="sdk_initialized">Initialized</string>
+    <string name="sdk_initialization_error">Initialization Error</string>
+    <string name="check_device_logs">Check the device log for details.</string>
+    <string name="retry">Retry</string>
+    <string name="bitplace_in">Entered location: %1$s</string>
+    <string name="bitplace_out">Exited location: %1$s</string>
+    <string name="user_preferences">User Preferences</string>
+    <string name="subscribe_all_channels">All</string>
+    <string name="subscribe_no_channels">None</string>
+    <string name="subscribe_selected_channels">Selected</string>
+    <string name="channels_activity_description">"Select the channels to which you would like to subscribe.
+        The SDK will track bitplaces associated with the selected channels.
+        Some bitplaces are channel independent and are always tracked.</string>
+    <string name="reset_button">reset</string>
+    <string name="channels">Channels</string>
+    <string name="channels_image_description">Image associated with the channel</string>
+    <string name="operation_not_available_until_sdk_started">This operation is not available before the SDK is successfully started.</string>
+    <string name="failed_retrieve_channels">Failed to retrieve channels. See device log for details.</string>
+    <string name="failed_retrieve_channel_preferences">Failed to retrieve  channel preferences. See device log for details.</string>
+    <string name="failed_set_channel_preferences">Failed to update channel preferences. See device log for details.</string>
+    <string name="preference_selected_channels">Current preference: Selected Channels</string>
+    <string name="preference_all_channels">Current preference: All Channels</string>
+    <string name="preference_no_channels">Current preference: Only Channel Independent Bitplaces</string>
+    <string name="preference_unknown">Current preference: unknown</string>
+
+  <string name="title_activity_splash_screen"></string>
+  <string name="dummy_button">Dummy Button</string>
+  <string name="dummy_content">DUMMY\nCONTENT</string>
+
+</resources>

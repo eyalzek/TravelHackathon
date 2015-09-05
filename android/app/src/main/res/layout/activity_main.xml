@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".MainActivityFragment">
+
+  <android.support.v7.widget.Toolbar
+      android:id="@+id/toolbar"
+      android:layout_width="match_parent"
+      android:layout_height="74dp"
+      android:layout_alignParentTop="true"
+      android:background="@color/dark_blue"
+      android:theme="@style/ToolBarStyle">
+
+    <TextView
+        android:id="@+id/toolbar_title_text_view"
+        style="@style/ActionBarText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="2"
+        tools:text="Go to security check\nGate 56"/>
+  </android.support.v7.widget.Toolbar>
+
+  <TextView
+      android:id="@+id/flight_info_text_view"
+      style="@style/GreyText"
+      android:layout_width="wrap_content"
+      android:layout_height="46dp"
+      android:layout_alignParentBottom="true"
+      android:layout_centerInParent="true"
+      android:drawableLeft="@drawable/takeoff"
+      android:text="1:25h LH3667 Kathmandu"/>
+
+  <LinearLayout
+      android:id="@+id/goal_container"
+      android:layout_width="match_parent"
+      android:layout_height="60dp"
+      android:background="@color/yellow"
+      android:orientation="vertical"
+      android:layout_above="@id/flight_info_text_view"
+      android:gravity="left|center_vertical">
+
+    <TextView
+        android:id="@+id/goal_reached_text_view"
+        style="@style/HelveticaText"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="28dp"
+        tools:text="Online check-in"/>
+
+    <TextView
+        android:id="@+id/points_achieved_text_view"
+        style="@style/HelveticaText.Bold"
+        android:textColor="@android:color/white"
+        android:textSize="22sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="28dp"
+        tools:text="You gained 50/50 points!"/>
+  </LinearLayout>
+
+  <TextView
+      android:id="@+id/my_points_text_view"
+      style="@style/GreyText"
+      android:textSize="30sp"
+      android:layout_centerHorizontal="true"
+      android:layout_above="@id/goal_container"
+      android:layout_marginBottom="10dp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      tools:text="120 Points"/>
+
+  <ImageView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:src="@drawable/ringexample"
+      android:layout_centerHorizontal="true"
+      android:layout_above="@id/my_points_text_view"/>
+
+</RelativeLayout>
