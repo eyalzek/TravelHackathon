@@ -1,0 +1,10 @@
+{
+  "applications": {
+    "Chillhansa": {
+      "applicationId": "WG8xtdl7uHL3XOJZJaHDf6ADYlPyDogYpMLTvD3e"
+    },
+    "_default": {
+      "link": "Chillhansa"
+    }
+  }
+}
