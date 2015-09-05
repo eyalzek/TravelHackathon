@@ -28,7 +28,7 @@ Parse.Cloud.define('onBeaconReached', function(request, response) {
     }).then(function(results) {
         response.success(values);
     }, function(error) {
-        if (error.constructor == Array && error.length == 0) {
+        if (error.constructor == Object && error.length == 0) {
             response.success(error);
         } else {
             response.error(error);
@@ -115,7 +115,7 @@ function calculatePoints(goals) {
         if (results.length == 2) {
             return Parse.Promise.as(Math.abs(results[0].get('timestamp') - results[1].get('timestamp')) / 1000);
         } else {
-            return Parse.Promise.error([]);
+            return Parse.Promise.error({});
         }
     }).then(function(results) {
         if (results <= best) {
